@@ -9,9 +9,10 @@ export default function Home() {
   const [faq, setFaq] = useState([]);
   useEffect(() => {
     const FAQ_API_URL = "http://localhost:3000/api/faq";
+    const FAQ_API_URL_PROD = "https://projeto-mema.vercel.app/api/faq";
     const FAQ_API_URL_ALURA =
       "https://gist.githubusercontent.com/omariosouto/0ceab54bdd8182cbd1a4549d32945c1a/raw/578ad1e8e5296fa048e3e7ff6b317f7497b31ad9/alura-cases-faq.json";
-    fetch(FAQ_API_URL)
+    fetch(FAQ_API_URL_PROD)
       .then((serverResponse) => {
         return serverResponse.json();
       })
