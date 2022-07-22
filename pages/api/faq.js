@@ -1,7 +1,5 @@
-function faq(req, res) {
-  const [id, question, answer] = items;
+import faqJson from "./faq.json";
 
-  res.status(200).json({
-    items: { id, question, answer },
-  });
+export default function faq(request, response) {
+  response.json(faqJson);
 }
