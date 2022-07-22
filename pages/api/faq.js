@@ -1,7 +1,7 @@
 function faq(req, res) {
   const [id, question, answer] = items;
 
-  response.json({
+  res.json({
     faq: items,
   });
 }
