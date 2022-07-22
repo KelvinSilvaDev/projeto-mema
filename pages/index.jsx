@@ -60,7 +60,7 @@ export default function Home() {
         <ul>
           {faq.map(({ answer, question }) => {
             return (
-              <li>
+              <li key={question}>
                 <article>
                   <h2>{question}</h2>
                   <p>{answer}</p>
