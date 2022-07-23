@@ -27,16 +27,14 @@ export const LogoDesktop = styled.div`
   }
 `;
 export const HomeHeader = styled.div`
-  background: #5b945b;
+  background: #000;
   color: #fff;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 24px 64px;
   align-content: center;
   align-items: center;
-  padding-top: 60px;
   @media (max-width: 800px) {
     padding: 24px 14px;
   }

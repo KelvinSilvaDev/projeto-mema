@@ -50,3 +50,20 @@ export const SectionTwo = styled.section`
     }
   }
 `;
+
+export const SectionTree = styled.section`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  .left {
+    width: 50%;
+    padding: 0 3rem;
+  }
+  .right {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+`;
