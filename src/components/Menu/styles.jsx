@@ -8,7 +8,6 @@ export const Wrapp = styled.div`
   justify-content: center;
   height: 90px;
   position: sticky;
-  background: #000;
   top: 0;
   z-index: 9999999;
   nav {

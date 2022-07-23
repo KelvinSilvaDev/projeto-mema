@@ -7,7 +7,8 @@ import styled from "styled-components";
 export const HeaderWrapp = styled.div`
   width: 100%;
   overflow-x: hide;
-  position: relative;
+  position: sticky;
+  top: 0;
 `;
 
 // const scroll = keyframes
@@ -27,7 +28,7 @@ export const LogoDesktop = styled.div`
   }
 `;
 export const HomeHeader = styled.div`
-  background: #000;
+  background: #000000b9;
   color: #fff;
   width: 100%;
   display: flex;

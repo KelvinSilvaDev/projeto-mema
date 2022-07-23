@@ -16,6 +16,7 @@ export const SectionOne = styled.section`
   align-items: center;
   justify-content: center;
   padding: 0 1.5rem;
+  padding-bottom: 1.5rem;
   background-image: url("assets/img/homeBg.jpg");
   background-position: bottom;
   background-repeat: no-repeat;

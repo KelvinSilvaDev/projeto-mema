@@ -1,9 +1,10 @@
 // import Head from "next/head";
-// import Image from "next/image";
+import Image from "next/image";
 // import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import React from "react";
 import { useEffect, useState } from "react";
+import homeBg from "../public/assets/img/homeBg.jpg";
 import Accordion from "../components/Accordion";
 import styled from "styled-components";
 import faq from "./api/faq.json";
@@ -95,7 +96,14 @@ export default function Home() {
           </p>
         </div>
         <div className="right">
-          <img src="./assets/img/HomeBg.jpg" alt="" />
+          {/* <img src="./assets/img/HomeBg.jpg" alt="" /> */}
+          <Image
+            src={homeBg}
+            layout="responsive"
+            objectFit="none"
+            quality={100}
+            alt=""
+          />
         </div>
       </Style.SectionTree>
       {/* <Accordion /> */}
